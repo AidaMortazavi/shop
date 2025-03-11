@@ -1,0 +1,8 @@
+body{
+    background-color: cadetblue;
+    }
+#header{
+        color: black;
+        display: flex;
+        justify-content: space-between;
+    }
