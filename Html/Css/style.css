@@ -1,8 +1,39 @@
 body{
-    background-color: cadetblue;
+    background-color: black;
     }
 #header{
-        color: black;
+        color: #FFD700;
         display: flex;
         justify-content: space-between;
+        
     }
+.menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 1.5em;
+}
+#logo{
+    font-size: 1.5em;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    color: #000;
+}
+.fa{
+    border: 2px;
+    border: 2px solid #000; 
+    width: 2.5em; 
+    height: 2.5em; 
+    border-radius: 50%;
+    background-color: #FFD700; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    box-sizing: border-box; 
+    padding: 10px; 
+    font-size: 1em;
+    gap: 25px;
+}
